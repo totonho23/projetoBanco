@@ -30,4 +30,12 @@ os cabeçalhos dos métodos e declarações das classes, um arquivo.cpp contendo
 implementação dos métodos, toda a parte lógica e, um arquivo principal contendo a
 função "main" que é responsável por fazer todos os outros arquivos conversarem.
 
-Para mais informações baixe o projeto.
+
+OBS IMPORTANTE:
+
+A razão pela qual foi utilizado um padrão diferente na passagem dos dados no arquivo
+foi pela escolha da linguagem, exigindo uma adaptação para melhor se adequar aos padrões
+da linguagem C++, fazer a analise dos atributos da classe no arquivo linha por linha reduz de 
+maneira relevante a complexidade do algoritmo já que o sistema faz um acesso sequencial
+dos dados sem ter a necessidade de uso de condicionais, na prática isso diminui a quantidade de
+ciclos da CPU.
